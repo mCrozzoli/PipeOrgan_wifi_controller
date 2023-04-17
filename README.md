@@ -58,12 +58,12 @@ To build the pipe organ controller system, you will need the following component
 
 ##### And how are the ESP32 controlling the solenoid built (check the dash image in the folder):
 
-1.Power Supply: The ESP32 #2 is powered with a 5V USB cable.
-2.ESP32 #2 (Receiver): This ESP32 receives data wirelessly from the first ESP32 (Connected to the computer via serial). It is connected to a relay module and a step-up converter.
-3.Relay Module: The relay module is connected to the ESP32 using GND, VCC, and IO22 pins. It controls the opening and closing of the solenoid valve. One output is connected to the step-up converter and the other to the solenoid.
-4.Step-Up Converter: The step-up converter is connected to the 3.3V and GND pins of the ESP32. It transforms the 3.3V coming from the ESP32 to 12V+. The positive output (Out+) is connected to the relay, and the negative output (Out-) is connected to the solenoid valve.
-5.Solenoid Valve: The solenoid valve is connected to the relay module and the step-up converter. One output from the relay is connected to the Out+ of the step-up converter, and the other output is connected to the solenoid valve. The Out- from the step-up converter is connected to the solenoid valve.
+1. Power Supply: The ESP32 #2 is powered with a 5V USB cable.
+2. ESP32 #2 (Receiver): This ESP32 receives data wirelessly from the first ESP32 (Connected to the computer via serial). It is connected to a relay module and a step-up converter.
+3. Relay Module: The relay module is connected to the ESP32 using GND, VCC, and IO22 pins. It controls the opening and closing of the solenoid valve. One output is connected to the step-up converter and the other to the solenoid.
+4. Step-Up Converter: The step-up converter is connected to the 3.3V and GND pins of the ESP32. It transforms the 3.3V coming from the ESP32 to 12V+. The positive output (Out+) is connected to the relay, and the negative output (Out-) is connected to the solenoid valve.
+5. Solenoid Valve: The solenoid valve is connected to the relay module and the step-up converter. One output from the relay is connected to the Out+ of the step-up converter, and the other output is connected to the solenoid valve. The Out- from the step-up converter is connected to the solenoid valve.
 
 
-Hope it is clear enough! write me if you want some pictures to see how everything is connected :)
+Hope it is clear enough! write me if you want some pictures to see how everything is connected or help to assemble it :)
 
