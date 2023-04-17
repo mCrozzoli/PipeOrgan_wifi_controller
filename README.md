@@ -1,11 +1,12 @@
 # PipeOrgan_wifi_controller
 
 First version of a wifi pipe organ controller! try it out &lt;3
- ---DETECT SERIAL PORT--- was a solution implemented by: tfeldmann on StackOverflow. Thanks!!!
 
 ## Project: Pipe Organ WIFI Controller
 
 This project allows users to control the opening and closing of a solenoid valve which manages the airflow into a pipe organ. The system is comprised of a Python-based user interface (UI), an ESP32 connected via serial communication, and additional ESP32 devices that receive data through ESP-NOW (WiFi).
+
+psssst...  ---DETECT SERIAL PORT--- was a solution implemented by: tfeldmann on StackOverflow. Thanks!!!
 
 ### System Overview
 
