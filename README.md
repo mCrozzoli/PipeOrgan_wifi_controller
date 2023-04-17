@@ -1,6 +1,7 @@
 # PipeOrgan_wifi_controller
 
 First version of a wifi pipe organ controller! try it out &lt;3
+ ---DETECT SERIAL PORT--- was a solution implemented by: tfeldmann on StackOverflow. Thanks!!!
 
 ## Project: Pipe Organ WIFI Controller
 
