@@ -42,10 +42,10 @@ To build the pipe organ controller system, you will need the following component
 #### Steps to Build the System
 
 1. Set up the Python environment: Install the required Python libraries for the project. The script requires pyserial, python-osc, and tkinter.
-2.Flash the ESP32 devices: Upload the provided ESP32 code to each of your ESP32 microcontrollers using the Arduino IDE or a similar tool. Make sure to update the MAC addresses in the "ESP32 connected via Serial" code to match the addresses of your receiving ESP32 devices. Also, update the peerMacA, peerMacB, etc., in the "ESP32 receivers" code to match the addresses of your receiving ESP32 devices.
-3.Connect the ESP32 devices: Connect the first ESP32 to your computer using a USB cable. This will allow serial communication between the Python script and the ESP32. Connect the receiving ESP32 devices to the solenoid valve(s) using jumper wires and a breadboard. Make sure to connect the appropriate GPIO pin (as specified in the "ESP32 receivers" code) to the control pin of the solenoid valve. Additionally, connect the power and ground pins of the solenoid valve to a suitable power source.
-4.Run the Python script: Execute the provided Python script on your computer. This will open the user interface, allowing you to create a grid, set a tempo, and control the solenoid valve.
-5.Configure and control the system: Use the UI to set the desired grid configuration and tempo. Click the "Save" button to send the data to the ESP32 devices and control the solenoid valve accordingly.
+2. Flash the ESP32 devices: Upload the provided ESP32 code to each of your ESP32 microcontrollers using the Arduino IDE or a similar tool. Make sure to update the MAC addresses in the "ESP32 connected via Serial" code to match the addresses of your receiving ESP32 devices. Also, update the peerMacA, peerMacB, etc., in the "ESP32 receivers" code to match the addresses of your receiving ESP32 devices.
+3. Connect the ESP32 devices: Connect the first ESP32 to your computer using a USB cable. This will allow serial communication between the Python script and the ESP32. Connect the receiving ESP32 devices to the solenoid valve(s) using jumper wires and a breadboard. Make sure to connect the appropriate GPIO pin (as specified in the "ESP32 receivers" code) to the control pin of the solenoid valve. Additionally, connect the power and ground pins of the solenoid valve to a suitable power source.
+4. Run the Python script: Execute the provided Python script on your computer. This will open the user interface, allowing you to create a grid, set a tempo, and control the solenoid valve.
+5. Configure and control the system: Use the UI to set the desired grid configuration and tempo. Click the "Save" button to send the data to the ESP32 devices and control the solenoid valve accordingly.
 
 ##### How the system communicates (check the dash image in the folder):
 
