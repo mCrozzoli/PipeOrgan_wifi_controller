@@ -47,7 +47,7 @@ To build the pipe organ controller system, you will need the following component
 4.Run the Python script: Execute the provided Python script on your computer. This will open the user interface, allowing you to create a grid, set a tempo, and control the solenoid valve.
 5.Configure and control the system: Use the UI to set the desired grid configuration and tempo. Click the "Save" button to send the data to the ESP32 devices and control the solenoid valve accordingly.
 
-#### How the system communicates (check the dash image in the folder):
+##### How the system communicates (check the dash image in the folder):
 
 1. Python Script: The Python script runs on a computer and provides a user interface for creating a grid, setting a tempo, and controlling the solenoid valve.
 2. Serial Communication: The Python script communicates with the first ESP32 (ESP32 #1) connected via USB using serial communication. The script sends OSC messages containing grid data and tempo information to the ESP32.
@@ -56,7 +56,7 @@ To build the pipe organ controller system, you will need the following component
 5. ESP32 #2 (Receiver): The receiving ESP32 devices receive the data sent by ESP32 #1 and control the solenoid valve accordingly.
 6. Solenoid Valve: The solenoid valve controls the airflow into the pipe organ based on the signals received from the receiving ESP32 devices.
 
-#### And how are the ESP32 controlling the solenoid built (check the dash image in the folder):
+##### And how are the ESP32 controlling the solenoid built (check the dash image in the folder):
 
 1.Power Supply: The ESP32 #2 is powered with a 5V USB cable.
 2.ESP32 #2 (Receiver): This ESP32 receives data wirelessly from the first ESP32 (Connected to the computer via serial). It is connected to a relay module and a step-up converter.
