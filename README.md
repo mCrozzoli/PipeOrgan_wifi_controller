@@ -1,6 +1,6 @@
 # PipeOrgan_wifi_controller
 
-First version of a wifi pipe organ controller!
+First version of a wifi pipe organ controller! ...but bugs I need to fix: if you choose columns to be > 8 the UI crashes, and it seems that the msg on the receiver needs to be emptied when receiving a new one (?). Soon I'll upload a new version :) 
 
 ## Project: Pipe Organ WIFI Controller
 
